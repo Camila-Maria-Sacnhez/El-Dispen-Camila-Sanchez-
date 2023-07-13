@@ -14,5 +14,49 @@
   font-size: 1.5rem;
 } 
 
+.card-title {
+  
+}
 
+.blockquote {
+  color: #f4802c;
+}
+
+.texto{
+  color: #3a5a40;
+}
+
+.card-title__productos {
+ 
+  color: #f4802c;
+}
+
+.card-body{
+  background-color: #3a5a40;
+  color: blanchedalmond;
+}
+
+.btn {
+  color: gray;
+  background-color: blanchedalmond;
+}
+
+.btn:hover {
+  background-color: #f4802c;
+}
+
+.nav-link:hover {
+ color: #f4802c;
+
+}
+
+.input-group-text {
+
+  color: #3a5a40;
+  background-color: blanchedalmond;
+}
+
+.table{
+  color: #3a5a40;
+}
 

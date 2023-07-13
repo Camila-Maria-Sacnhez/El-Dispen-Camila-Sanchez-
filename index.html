@@ -20,7 +20,7 @@
                 </a>
             </div>
             <ul class="nav justify-content-end ">
-                <li class="nav-item">
+                <li class="nav-item tarjetas">
                     <a class="nav-link active color" aria-current="page" href="#">Nosotros</a>
                 </li>
                 <li class="nav-item">
@@ -43,7 +43,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Los magos de este cuento</h5>
                     <p class="card-text"> LA Maga y EL Tini</p>
-                    <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+
                 </div>
             </div>
             <div class="card">
@@ -51,7 +51,7 @@
                 <div class="card-body">
                     <h5 class="card-title"> Todas nuestras pócimas</h5>
                     <p class="card-text"> Las póciones multijugos.</p>
-                    <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+
                 </div>
             </div>
             <div class="card">
@@ -59,16 +59,106 @@
                 <div class="card-body">
                     <h5 class="card-title"> Nuestros rituales magicos</h5>
                     <p class="card-text">Colegio Hogwarts de Magia y Hechicería</p>
-                    <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+
                 </div>
             </div>
         </div>
 
+
+
+        
+
+
+
+
+
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <h2> NUESTROS PRODUCTOS.</h2>
+                <h4> Conoce la magia de nuestros productos.</h4>
+            </blockquote>
+
+        </figure>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/sahumos recortado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title__productos">Sahumos</h5>
+                        <p class="card-text"> Ideales para rituales, limpiezas y purificación.</p>
+                    </div>
+                    <button type="button" id="BotonSahumos" class="btn btn-outline-secondary"> Agregar al carrito de
+                        compras</button>
+                    <button type="button" id="BotonSahumosDisminuir" class="btn btn-outline-secondary"> Quitar producto
+                        del carrito de compras</button>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/deso recortado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title__productos">Desodorantes Naturales</h5>
+                        <p class="card-text"> Amigables con tu piel y el planeta.</p>
+                    </div>
+                    <button type="button" id="BotonDesodorantes" class="btn btn-outline-secondary"> Agregar al
+                        carrito de compras</button>
+                    <button type="button" id="BotonDesodorantesDisminuir" class="btn btn-outline-secondary"> Quitar
+                        producto  del carrito de compras</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/tinturas recortadasjpg.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title__productos"> Tinturas Madre</h5>
+                        <p class="card-text"> Calma esta compuesta por valeriana, pasiflora, melisa y tilo.</p>
+                    </div>
+                    <button type="button" id="BotonTinturas" class="btn btn-outline-secondary"> Agregar al carrito
+                        de compras</button>
+                    <button type="button" id="BotonTinturasDisminuir" class="btn btn-outline-secondary"> Quitar producto
+                        del carrito de compras</button>
+                </div>
+            </div>
+        </div>
+
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <h2> Tu carrito de compras.</h2>
+                <h4> Estas a un click de conocer la magia.</h4>
+            </blockquote>
+
+        </figure>
+
+        <table class="table">
+            <thead class="">
+                <tr id="trId">
+                    <th># item</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                </tr>
+            </thead>
+            <tbody id="item" class="table-striped"></tbody>
+
+            
+            <tfoot>
+                <tr>
+                    <th> El total del carrito es de:</th>
+                    <th id="total"> </th>
+                </tr>
+            </tfoot>
+        </table>
+
+
+
     </main>
 
 
-    <script src="./app.js"></script>
 
+    <script src="./app.js"></script>
 </body>
 
 </html>
