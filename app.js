@@ -69,6 +69,17 @@ function calcularTotal() {
 
 }
 
+const cargarProductos = async () => {
+    try {
+        const response = await fetch('productos.json');
+        const data = await response.json();
+        carrito.push(...data);
+        dibujarTabla();
+    } catch (error) {
+        console.error('Error al cargar los productos:', error);
+    }
+}
+
 
 //////// boton sahumos /////
 
@@ -167,7 +178,7 @@ function disminuirTintura() {
 
 BotonTinturasDisminuir.addEventListener('click', disminuirTintura);
 
-
+cargarProductos();
 
 
 ////////////////////////////////////////////
